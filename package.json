@@ -11,7 +11,7 @@
     "lint": " eslint . --fix",
     "test": "jest",
     "coverage": "jest  --coverage",
-    "ci": "start-test :8888 test",
+    "ci": "start-test :1234 test",
     "doc": "jsdoc -c jsdoc.conf.json",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
